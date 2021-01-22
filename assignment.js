@@ -1,30 +1,22 @@
 
-// kilometerToMeter
- function  kilometerToMeter(kilometer){
-    var meter = kilometer*1000;
+// https://github.com/Nayeem-naim/assignment.js
+
+//  kilometerToMeter
+function kilometerToMeter(kilometer) {
+    var meter = kilometer * 1000;
     return meter;
- }
- var myway =  kilometerToMeter(10);
- console.log(myway);
 
-
+}
 
 //budgetCalculator
-
-function budgetCalculator(clock, mobile, laptop){
+function budgetCalculator(clock, mobile, laptop) {
     var first = clock * 50;
     var second = mobile * 100;
-    var third = laptop *  500;
+    var third = laptop * 500;
     total = first + second + third;
-
     return total;
 }
 
-
-
-
-
- 
 
 //hotelCost
 function hotelCost(day) {
@@ -49,11 +41,8 @@ function hotelCost(day) {
 }
 
 
-
-
 //megaFriend
-
-function megaFriend(names){
+function megaFriend(names) {
     var max = [0];
     for (var i = 0; i < names.length; i++) {
         if (max < names[i].length) {
